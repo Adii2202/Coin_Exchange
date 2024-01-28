@@ -1,5 +1,5 @@
-const request = require("request");
-const crypto = require("crypto");
+import request from "request";
+import crypto from "crypto";
 const { key, secret } = require("./config");
 
 const baseurl = "https://api.coindcx.com";
